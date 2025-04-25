@@ -10,3 +10,6 @@
 
 
 결과 정리 노션 : https://generated-bush-cff.notion.site/1e0303e2522281a490b6e11a4cf9d24b?pvs=4
+
+실제 서비스 내에서 적용 결과 : https://generated-bush-cff.notion.site/1e0303e2522281bd968ff0d4de602627?pvs=4
+                        https://generated-bush-cff.notion.site/UMC-7th-1e0303e25222817c8e61d44aeaa530d7?pvs=4
