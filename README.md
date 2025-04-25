@@ -9,9 +9,9 @@
 락 마다 테스트를 하고 별도로 클래스 분리를 하지 않았기에, 각 상황에 대한 자세한 코드는 노션을 참고해주세요!
 
 
-결과 정리 노션 : https://generated-bush-cff.notion.site/1e0303e2522281a490b6e11a4cf9d24b?pvs=4
+결과 정리 노션 : 
+https://generated-bush-cff.notion.site/1e0303e2522281a490b6e11a4cf9d24b?pvs=4
 
 실제 서비스 내에서 적용 결과 :  
-<br>
 https://generated-bush-cff.notion.site/1e0303e2522281bd968ff0d4de602627?pvs=4    <br>
 https://generated-bush-cff.notion.site/UMC-7th-1e0303e25222817c8e61d44aeaa530d7?pvs=4
