@@ -9,4 +9,4 @@
 락 마다 테스트를 하고 별도로 클래스 분리를 하지 않았기에, 각 상황에 대한 자세한 코드는 노션을 참고해주세요!
 
 
-결과 정리 노션 : https://generated-bush-cff.notion.site/1c7303e252228013bce3c6fb3d763599?pvs=4
+결과 정리 노션 : https://generated-bush-cff.notion.site/1e0303e2522280409026c0c461bc0720?pvs=4
