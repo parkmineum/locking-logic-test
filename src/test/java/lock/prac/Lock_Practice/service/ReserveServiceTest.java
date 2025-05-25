@@ -62,9 +62,13 @@ public class ReserveServiceTest {
 
         @Override
         public void run() {
-            Long memberId = userService.join("Park mineum");
+            Long memberId = userService.join("Park");
             boolean result = false;
-            result = seatReservationService.distributedLock(reserveId);
+            try {
+                result = seatReservationService.namedLockReservation(reserveId);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
 
             if (result) {
                 System.out.println("예약에 성공하였습니다.");
