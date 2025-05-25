@@ -1,4 +1,4 @@
-package lock.prac.Lock_Practice;
+package lock.prac.Lock_Practice.global;
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
