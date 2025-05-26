@@ -1,0 +1,23 @@
+# 빌드 및 결과물 제외
+/build/
+/out/
+/target/
+/bin/
+/*.class
+*.log
+*.bin
+
+# 테스트 리포트 제외
+/test-results/
+/reports/
+/*.html
+*.css
+*.js
+
+# IntelliJ 관련 파일 제외
+.idea/
+*.iml
+
+# OS별 파일 제외
+.DS_Store
+Thumbs.db
