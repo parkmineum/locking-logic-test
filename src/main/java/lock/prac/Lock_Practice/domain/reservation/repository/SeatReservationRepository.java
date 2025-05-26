@@ -1,12 +1,7 @@
-package lock.prac.Lock_Practice.domain.repository;
+package lock.prac.Lock_Practice.domain.reservation.repository;
 
-import jakarta.persistence.LockModeType;
-import lock.prac.Lock_Practice.domain.Entity.Seat;
+import lock.prac.Lock_Practice.domain.reservation.Entity.Seat;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Lock;
-import org.springframework.data.jpa.repository.Query;
-
-import java.util.Optional;
 
 public interface SeatReservationRepository extends JpaRepository<Seat, Long> {
 

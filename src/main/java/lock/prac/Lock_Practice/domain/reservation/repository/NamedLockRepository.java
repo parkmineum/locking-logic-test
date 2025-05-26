@@ -1,4 +1,4 @@
-package lock.prac.Lock_Practice.domain.repository;
+package lock.prac.Lock_Practice.domain.reservation.repository;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.jdbc.core.JdbcTemplate;

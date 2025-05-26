@@ -1,7 +1,9 @@
-package lock.prac.Lock_Practice.domain.Entity;
+package lock.prac.Lock_Practice.domain.reservation.Entity;
 
 
 import jakarta.persistence.*;
+import lock.prac.Lock_Practice.domain.user.entity.User;
+import lock.prac.Lock_Practice.global.apiPayload.common.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -15,7 +17,7 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Seat {
+public class Seat extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

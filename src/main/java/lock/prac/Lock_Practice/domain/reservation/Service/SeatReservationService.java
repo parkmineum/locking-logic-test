@@ -1,16 +1,14 @@
-package lock.prac.Lock_Practice.domain.Service;
+package lock.prac.Lock_Practice.domain.reservation.Service;
 
-import lock.prac.Lock_Practice.domain.Entity.Seat;
-import lock.prac.Lock_Practice.domain.Entity.User;
-import lock.prac.Lock_Practice.domain.repository.NamedLockRepository;
-import lock.prac.Lock_Practice.domain.repository.SeatReservationRepository;
-import lock.prac.Lock_Practice.domain.repository.UserRepository;
+import lock.prac.Lock_Practice.domain.reservation.Entity.Seat;
+import lock.prac.Lock_Practice.domain.reservation.repository.SeatReservationRepository;
 import jakarta.persistence.EntityNotFoundException;
+import lock.prac.Lock_Practice.domain.user.entity.User;
+import lock.prac.Lock_Practice.domain.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.redisson.api.RLock;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.redisson.api.RedissonClient;
 

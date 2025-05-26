@@ -1,12 +1,11 @@
 package lock.prac.Lock_Practice.service;
 
-import lock.prac.Lock_Practice.domain.Entity.Seat;
-import lock.prac.Lock_Practice.domain.Service.SeatReservationService;
-import lock.prac.Lock_Practice.domain.Service.UserService;
+import lock.prac.Lock_Practice.domain.reservation.Entity.Seat;
+import lock.prac.Lock_Practice.domain.reservation.Service.SeatReservationService;
+import lock.prac.Lock_Practice.domain.reservation.Service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.orm.ObjectOptimisticLockingFailureException;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
