@@ -28,6 +28,14 @@ public class User extends BaseEntity {
     @Column(name = "profile_image")
     private String profileImage;
 
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "social_type")
+    private SocialType socialType;
+
+    @Column(name = "social_id")
+    private String socialId;
+
     @Column(name = "access_token")
     private String accessToken;
 

@@ -9,7 +9,9 @@ public class UserConverter {
         return new UserResponseDTO.JoinResultDTO(
                 user.getEmail(),
                 user.getUsername(),
-                user.getProfileImage()
+                user.getProfileImage(),
+                user.getAccessToken(),
+                user.getRefreshToken()
         );
     }
 

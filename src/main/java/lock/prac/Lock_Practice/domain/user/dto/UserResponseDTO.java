@@ -11,6 +11,9 @@ public class UserResponseDTO {
         private String email;
         private String nickname;
         private String profileImage;
+
+        private String accessToken;
+        private String refreshToken;
     }
     @Getter
     @AllArgsConstructor
